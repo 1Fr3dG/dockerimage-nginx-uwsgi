@@ -28,9 +28,5 @@ COPY ./app /app
 
 WORKDIR /app
 
-ONBUILD COPY ./requirements.txt /tmp/requirement.txt
-ONBUILD RUN pip install --no-cache-dir -r /tmp/requirements.txt
-ONBUILD COPY ./app /app
-
 EXPOSE 80 443
 CMD ["/usr/bin/supervisord"]

@@ -11,7 +11,7 @@ You may create a volume mapping for app code:
 
 Or, you can just create docker image with one-line Dockerfile:
 
-`FROM registry.cn-shanghai.aliyuncs.com/alfredg/nginx-uwsgi`
+`FROM registry.cn-shanghai.aliyuncs.com/alfredg/nginx-uwsgi:onbuild`
 
 Put `requirement.txt` in the root path and it will be feed to pip.
 
