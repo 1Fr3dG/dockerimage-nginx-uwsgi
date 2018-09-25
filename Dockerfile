@@ -1,4 +1,5 @@
-FROM registry.cn-hangzhou.aliyuncs.com/acs/python:3.6
+#FROM registry.cn-hangzhou.aliyuncs.com/acs/python:3.6
+FROM python:3.6
 
 MAINTAINER Alfred Gao <alfredg@alfredg.cn>
 # Install uWSGI
